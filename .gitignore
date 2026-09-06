@@ -1,0 +1,8 @@
+target/
+lucene-index/
+.env
+*.class
+.idea/
+*.iml
+.vscode/
+.DS_Store

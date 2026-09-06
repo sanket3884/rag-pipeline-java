@@ -1,0 +1,7 @@
+Java is a statically typed, object-oriented programming language originally released by Sun Microsystems in 1995. Programs written in Java are compiled to bytecode, which runs on the Java Virtual Machine, or JVM. This means Java code can run on any platform that has a compatible JVM, following the "write once, run anywhere" philosophy.
+
+Key language features include strong static typing, automatic memory management via garbage collection, a large standard library, and support for object-oriented programming through classes and interfaces. Modern Java (Java 17 and later, which are Long Term Support releases) also includes records, which are compact classes for immutable data carriers, sealed classes for restricted class hierarchies, and pattern matching for switch expressions.
+
+The JVM's garbage collector automatically reclaims memory occupied by objects that are no longer reachable from the program, removing the need for manual memory deallocation that languages like C and C++ require. This reduces a whole class of bugs like use-after-free and double-free errors, at the cost of some runtime overhead and less predictable pause times.
+
+Java's build tools ecosystem is dominated by Maven and Gradle. Maven uses declarative XML configuration (pom.xml) and a convention-over-configuration philosophy, while Gradle uses a Groovy or Kotlin DSL for more flexible, script-based build definitions. Both tools manage dependencies by downloading them from repositories such as Maven Central.
