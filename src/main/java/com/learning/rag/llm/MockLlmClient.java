@@ -11,7 +11,7 @@ public class MockLlmClient implements LlmClient {
 
     @Override
     public String generate(String systemPrompt, String userPrompt) {
-        return "[MOCK LLM — no real generation happened]\n"
+        return "[MOCK LLM ---- no real generation happened]\n"
                 + "This client just proves the prompt was assembled correctly.\n"
                 + "Swap in AnthropicLlmClient (set ANTHROPIC_API_KEY) for a real answer.\n\n"
                 + "---- Prompt that would have been sent ----\n"
